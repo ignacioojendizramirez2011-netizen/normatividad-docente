@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publicador Normatividad · Términos y Privacidad</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root {
+--bg: #f7f5f0; --fg: #1d2433; --muted: #5b6475; --line: #d9d4c7;
+--board: #24543e; --chalk: #f4f2e8; --accent: #b9851a;
+--display: "Source Serif 4", Georgia, serif;
+--body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root {
+--bg: #12161f; --fg: #e6e8ee; --muted: #a2a9b8; --line: #2a3140;
+--board: #1f4a37; --chalk: #f4f2e8; --accent: #e0b04a; color-scheme: dark } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 var(--body); }
+.cabecera { background: var(--board); color: var(--chalk); }
+.envoltura { max-width: 44rem; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+.cabecera .envoltura { padding-block: 2.5rem 2rem; }
+.cabecera p { margin: 0; color: var(--chalk); opacity: .85; }
+h1 { font: 600 clamp(1.7rem, 4vw, 2.3rem)/1.2 var(--display); margin: .3rem 0 .6rem; text-wrap: balance; }
+.etiqueta { text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; color: var(--accent); font-weight: 600; }
+nav { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.2rem; }
+nav a { color: var(--chalk); font-weight: 500; }
+main .envoltura { padding-block: 2rem 3rem; display: grid; gap: 2.5rem; }
+section { display: grid; gap: .4rem; }
+h2 { font: 600 1.5rem/1.25 var(--display); margin: 0 0 .3rem; padding-bottom: .4rem; border-bottom: 1px solid var(--line); }
+h3 { font-size: 1rem; margin: 1rem 0 0; }
+p, li { margin: 0; max-width: 65ch; }
+ul { margin: .2rem 0 0; padding-left: 1.2rem; display: grid; gap: .3rem; }
+.nota { color: var(--muted); font-size: .9rem; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header class="cabecera">
+<div class="envoltura">
+<span class="etiqueta">Herramienta personal de publicación</span>
+<h1>Publicador Normatividad</h1>
+<p>Publica en las cuentas de su propio autor videos educativos sobre normatividad para docentes de educación básica en México.</p>
+<nav aria-label="Secciones"><a href="index.html">Inicio</a><a href="#terminos">Términos de servicio</a><a href="#privacidad">Política de privacidad</a></nav>
+</div>
+</header>
+<main>
+<div class="envoltura">
+<p class="nota">Última actualización: 18 de noviembre de 2026.</p>
+<section id="terminos">
+<h2>Términos de servicio</h2>
+<h3>1. Qué es</h3>
+<p>Publicador Normatividad es una herramienta de uso personal. Su autor la usa para subir videos que él mismo produce a sus propias cuentas de Facebook, Instagram, YouTube y TikTok. No se ofrece a otras personas ni se vende.</p>
+<h3>2. Contenido</h3>
+<p>Los videos presentan casos prácticos con fines informativos sobre la normatividad educativa mexicana. No son asesoría legal. Quien los vea debe verificar siempre el texto vigente en el Diario Oficial de la Federación y en la normatividad de su entidad.</p>
+<h3>3. Uso de las plataformas</h3>
+<p>La herramienta usa solo las API oficiales de cada plataforma y respeta sus condiciones de uso. Solo publica en las cuentas que su autor autoriza de manera expresa.</p>
+<p>Para subir videos a YouTube usa los Servicios de la API de YouTube. Al usarla aplican los <a href="https://www.youtube.com/t/terms">Términos de Servicio de YouTube</a>.</p>
+<h3>4. Cambios</h3>
+<p>Estos términos pueden actualizarse. La fecha de arriba indica la versión vigente.</p>
+</section>
+<section id="privacidad">
+<h2>Política de privacidad</h2>
+<h3>Datos que se usan</h3>
+<ul>
+<li>Los tokens de acceso que cada plataforma entrega cuando el autor autoriza la herramienta.</li>
+<li>Los identificadores de las cuentas del autor donde se publica, como la página o el perfil.</li>
+</ul>
+<h3>Datos que no se recopilan</h3>
+<p>La herramienta no recopila, lee ni guarda datos de seguidores ni de otras personas usuarias. Tampoco lee mensajes, comentarios ni listas de contactos.</p>
+<h3>Dónde se guardan</h3>
+<p>Los tokens se guardan solo en la computadora del autor, en un archivo de configuración local. No se envían a servidores de terceros fuera de las propias plataformas.</p>
+<h3>Cómo revocar el acceso</h3>
+<p>El acceso puede retirarse en cualquier momento desde la configuración de cada plataforma, en la sección de aplicaciones conectadas o integraciones. Al hacerlo, la herramienta deja de poder publicar.</p>
+<h3>YouTube y Google</h3>
+<p>La herramienta usa los Servicios de la API de YouTube solo para subir los videos del autor a su propio canal. Consulta la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>. El acceso a Google se puede revocar en <a href="https://myaccount.google.com/permissions">la página de permisos de tu cuenta de Google</a>.</p>
+<h3>Contacto</h3>
+<p>Por mensaje directo a la página de Facebook «Asesoria Educativa Director».</p>
+<p><a href="index.html">Volver al inicio</a></p>
+</section>
+</div>
+</main>
+</body>
+</html>
